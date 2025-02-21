@@ -26,4 +26,5 @@ class Transaction:
         self.signature : str = ""
 
 
-
+    def to_json(self):
+        return self.__dict__
